@@ -1,6 +1,7 @@
 ! httpdns block
 ! 屏蔽掉部分httpdns，阻止app开发者绕过本地dns/私人dns进行查询
 ! 防止广告拦截规则失效
+! 部分地址来源: https://github.com/VirgilClyne/GetSomeFries/wiki/%F0%9F%9A%AB-HTTPDNS
 # http dns屏蔽
 ! dnspod
 ||httpdns.pro^ 
