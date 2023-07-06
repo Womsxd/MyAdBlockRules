@@ -19,6 +19,7 @@
 ! 快手
 ||hdns.ksyun.com^
 ||apidns.kwd.inkuai.com^
+||httpdns.kwd.inkuai.com^
 ! bilibili
 ||httpdns.bilivideo.com^
 ! 京东
@@ -28,6 +29,9 @@
 ||dns.weixin.qq.com^
 ! oppo
 ||httpdns.push.oppomobile.com^
+||httpdns.push.heytapmobi.com^
+||httpdns.ocloud.heytapmobi.com^
+||ocloud-httpdns-cn.heytapmobi.com^
 ! 作业帮
 ||httpdns.zybang.com^ 
 ! 144dns
