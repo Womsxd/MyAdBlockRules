@@ -1,0 +1,35 @@
+! httpdns block
+! 屏蔽掉部分httpdns，阻止app开发者绕过本地dns/私人dns进行查询
+! 防止广告拦截规则失效
+# http dns屏蔽
+! dnspod
+||httpdns.pro^ 
+||*.httpdns.pro^
+! 华为
+||httpdns.c.cdnhwc2.com^
+! 阿里
+||httpdns.alicdn.com^
+||httpdns-api.aliyuncs.com^
+||httpdns-sc.aliyuncs.com^
+! 百度
+||httpsdns.baidu.com^
+||httpdns.baidu.com^
+||httpdns.baidubce.com^
+! 快手
+||hdns.ksyun.com^
+||apidns.kwd.inkuai.com^
+! bilibili
+||httpdns.bilivideo.com^
+! 京东
+||dns.jd.com^
+! 微信
+||dns.weixin.qq.com.cn^
+||dns.weixin.qq.com^
+! oppo
+||httpdns.push.oppomobile.com^
+! 作业帮
+||httpdns.zybang.com^ 
+! 144dns
+||public.144dns.com^
+! 火山
+||httpdns.volcengineapi.com^
