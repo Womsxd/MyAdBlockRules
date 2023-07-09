@@ -39,7 +39,7 @@
 ! 火山
 ||httpdns.volcengineapi.com^
 ! 网易
-||httpdns.n.netease.com^
+# ||httpdns.n.netease.com^
 ||httpdns.music.163.com^
-||music.httpdns.c.163.com^
+# ||music.httpdns.c.163.com^
 ||lofter.httpdns.c.163.com^
