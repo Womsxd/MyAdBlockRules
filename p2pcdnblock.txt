@@ -4,6 +4,7 @@
 ! 腾讯
 ||stun.qqlive.qq.com^
 ||musicstun.p2p.qq.com^
+||p2p.qq.com^
 # 上面两个的cname解析结果
 ||stun-a1.qq.com^
 # 疑似腾讯云stun服务器
