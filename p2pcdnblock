@@ -1,0 +1,36 @@
+! 拦截一些p2pcdn的相关规则
+! 主要是防止自己成为p2p cdn的节点为主
+
+! 腾讯
+||stun.qqlive.qq.com^
+||musicstun.p2p.qq.com^
+# 上面两个的cname解析结果
+||stun-a1.qq.com^
+# 疑似腾讯云stun服务器
+||signal.qvb.qcloud.com^
+
+! xxpkg系
+||*pcdn*.xxpkg.com^
+||p2p-punch.xxpkg.com^
+
+! 快手的p2p cdn
+/^(.+)-p2p-pull\.(video|live)-voip\.com$/
+/^(.+)-p2p\.pull\.yximgs\.com$/
+||*.pcdn.yximgs.com^
+||config-p2p-*.vcloud.ks-live.com
+# 疑似快手的p2p cdn文件
+||yximgs-webrtc.liveplay.myqcloud.com^
+
+! 斗鱼系
+||p2plog.douyucdn.cn^
+||p2perrorlog.douyucdn.cn^
+||p2pchunk-table.douyucdn.cn^
+||p2pchunk-ws.douyucdn.cn^
+||stun*.douyucdn.cn^
+/trk-([0-9\-]+)\.douyucdn\.cn/
+||bjfesdk.douyucdn.cn^
+||dotcounter.douyucdn.cn^
+
+
+! 芒果tv
+||stun.hitv.com^
