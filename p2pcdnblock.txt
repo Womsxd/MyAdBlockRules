@@ -31,6 +31,8 @@
 ||bjfesdk.douyucdn.cn^
 ||dotcounter.douyucdn.cn^
 
-
 ! 芒果tv
 ||stun.hitv.com^
+
+! 56网/搜狐视频
+||p2p.tracker.tv.sohu.com^
