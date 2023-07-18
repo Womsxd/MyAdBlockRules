@@ -18,7 +18,8 @@
 /^(.+)-p2p-pull\.(video|live)-voip\.com$/
 /^(.+)-p2p\.pull\.yximgs\.com$/
 ||*.pcdn.yximgs.com^
-||config-p2p-*.vcloud.ks-live.com
+||config-p2p-*.vcloud.ks-live.com^
+||slb-p2p.vcloud.ks-live.com^
 # 疑似快手的p2p cdn文件
 ||yximgs-webrtc.liveplay.myqcloud.com^
 
