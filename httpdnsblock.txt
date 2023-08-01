@@ -8,6 +8,8 @@
 ||*.httpdns.pro^
 ! 华为
 ||httpdns.c.cdnhwc2.com^
+# 域名备案: 华为
+||httpdns-browser.platform.dbankcloud.cn^
 ! 阿里
 ||httpdns.alicdn.com^
 ||httpdns-api.aliyuncs.com^
@@ -24,9 +26,12 @@
 ||httpdns.bilivideo.com^
 ! 京东
 ||dns.jd.com^
-! 微信
+! 腾讯
+# 微信
 ||dns.weixin.qq.com.cn^
 ||dns.weixin.qq.com^
+# 其他
+||httpdns.kg.qq.com^
 ! oppo
 ||httpdns.push.oppomobile.com^
 ||httpdns.push.heytapmobi.com^
