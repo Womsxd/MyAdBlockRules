@@ -10,10 +10,6 @@
 # 疑似腾讯云stun服务器
 ||signal.qvb.qcloud.com^
 
-! xxpkg系
-||*pcdn*.xxpkg.com^
-||p2p-punch.xxpkg.com^
-
 ! 快手的p2p cdn
 /^(.+)-p2p-pull\.(video|live)-voip\.com$/
 /^(.+)-p2p\.pull\.yximgs\.com$/
@@ -22,6 +18,9 @@
 ||slb-p2p.vcloud.ks-live.com^
 # 疑似快手的p2p cdn文件
 ||yximgs-webrtc.liveplay.myqcloud.com^
+# xxpkg系 疑似快手关联公司
+||*pcdn*.xxpkg.com^
+||p2p-punch.xxpkg.com^
 
 ! 斗鱼系
 ||p2plog.douyucdn.cn^
