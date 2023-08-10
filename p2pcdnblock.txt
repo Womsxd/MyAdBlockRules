@@ -10,19 +10,19 @@
 # 疑似腾讯云stun服务器
 ||signal.qvb.qcloud.com^
 
-! 快手的p2p cdn
+! 快手
 /^(.+)-p2p-pull\.(video|live)-voip\.com$/
 /^(.+)-p2p\.pull\.yximgs\.com$/
 ||*.pcdn.yximgs.com^
 ||config-p2p-*.vcloud.ks-live.com^
 ||slb-p2p.vcloud.ks-live.com^
-# 疑似快手的p2p cdn文件
+# 疑似p2p cdn文件
 ||yximgs-webrtc.liveplay.myqcloud.com^
 # xxpkg系 疑似快手关联公司
 ||*pcdn*.xxpkg.com^
 ||p2p-punch.xxpkg.com^
 
-! 斗鱼系
+! 斗鱼
 ||p2plog.douyucdn.cn^
 ||p2perrorlog.douyucdn.cn^
 ||p2pchunk-table.douyucdn.cn^
@@ -35,6 +35,9 @@
 ||p2pchunk-*.douyucdn.cn^
 ||p2pable-*.douyucdn.cn^
 ||dyp2p-*.douyucdn2.cn^
+
+!虎牙
+||*.p2p.huya.com^
 
 ! 芒果tv
 ||stun.hitv.com^
