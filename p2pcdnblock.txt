@@ -32,6 +32,9 @@
 ||bjfesdk.douyucdn.cn^
 ||dotcounter.douyucdn.cn^
 ||sdkapi.douyucdn.cn^
+||p2pchunk-*.douyucdn.cn^
+||p2pable-*.douyucdn.cn^
+||dyp2p-*.douyucdn2.cn^
 
 ! 芒果tv
 ||stun.hitv.com^
