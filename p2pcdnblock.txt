@@ -32,6 +32,7 @@
 /trk-([0-9\-]+)\.douyucdn\.cn/
 ||bjfesdk.douyucdn.cn^
 ||dotcounter.douyucdn.cn^
+||sdkapi.douyucdn.cn^
 
 ! 芒果tv
 ||stun.hitv.com^
