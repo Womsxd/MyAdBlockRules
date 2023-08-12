@@ -44,3 +44,8 @@
 
 ! 56网/搜狐视频
 ||p2p.tracker.tv.sohu.com^
+
+! 星域云/网心
+||conf-darwin.xycdn.com^
+||seeds*-darwin.xycdn.com^
+||seeds-open.xycdn.com^
