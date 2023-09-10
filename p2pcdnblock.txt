@@ -49,3 +49,6 @@
 ||conf-darwin.xycdn.com^
 ||seeds*-darwin.xycdn.com^
 ||seeds-open.xycdn.com^
+
+!bilibili
+||*-pcdn-*.biliapi.net^
