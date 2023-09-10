@@ -8,6 +8,7 @@
 ||*.httpdns.pro^
 ! 华为
 ||httpdns.c.cdnhwc2.com^
+||httpdns.huaweicloud.com^
 # 域名备案: 华为
 ||httpdns-browser.platform.dbankcloud.cn^
 ! 阿里
