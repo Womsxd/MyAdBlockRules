@@ -11,6 +11,7 @@
 ||httpdns.huaweicloud.com^
 # 域名备案: 华为
 ||httpdns-browser.platform.dbankcloud.cn^
+||httpdns.platform.dbankcloud.com^
 ! 阿里
 ||httpdns.alicdn.com^
 ||httpdns-api.aliyuncs.com^
