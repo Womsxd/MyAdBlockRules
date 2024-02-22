@@ -50,6 +50,7 @@
 ||httpdns.music.163.com^
 # ||music.httpdns.c.163.com^
 ||lofter.httpdns.c.163.com^
+||httpdns.yunxindns.com^
 ! 美团
 ||httpdns.meituan.com^
 ! 微博
