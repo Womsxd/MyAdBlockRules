@@ -51,3 +51,5 @@
 ||lofter.httpdns.c.163.com^
 ! 美团
 ||httpdns.meituan.com^
+! 微博
+||dns.weibo.cn^
