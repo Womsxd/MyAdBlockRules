@@ -9,6 +9,7 @@
 ||stun-a1.qq.com^
 # 疑似腾讯云stun服务器
 ||signal.qvb.qcloud.com^
+||stun1.qvb.qcloud.com^
 
 ! 快手
 /^(.+)-p2p-pull\.(video|live)-voip\.com$/
@@ -49,6 +50,8 @@
 ||conf-darwin.xycdn.com^
 ||seeds*-darwin.xycdn.com^
 ||seeds-open.xycdn.com^
+||ttxyajs.data.kuiniuca.com^
+||sd-gl.xycdn.com^
 
 !bilibili
 ||*-pcdn-*.biliapi.net^
