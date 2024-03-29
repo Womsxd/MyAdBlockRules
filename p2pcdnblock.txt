@@ -55,4 +55,4 @@
 
 !bilibili
 ||*-pcdn-*.biliapi.net^
-||stun-*.chat.bilibili.com
+||stun*.chat.bilibili.com^
