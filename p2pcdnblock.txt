@@ -5,11 +5,15 @@
 ||stun.qqlive.qq.com^
 ||musicstun.p2p.qq.com^
 ||p2p.qq.com^
+||*.p2ptun.qq.com^
+||p2pupdate.gamedl.qq.com^
+||p2pupgrade.gamedl.qq.com^
 # 上面两个的cname解析结果
 ||stun-a1.qq.com^
 # 疑似腾讯云stun服务器
 ||signal.qvb.qcloud.com^
-||stun1.qvb.qcloud.com^
+||stun*.qvb.qcloud.com^
+
 
 ! 快手
 /^(.+)-p2p-pull\.(video|live)-voip\.com$/
@@ -56,3 +60,6 @@
 !bilibili
 ||*-pcdn-*.biliapi.net^
 ||stun*.chat.bilibili.com^
+
+!金山云
+||*.stun.yfp2p.net^
