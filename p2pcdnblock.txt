@@ -18,6 +18,7 @@
 ! 快手
 /^(.+)-p2p-pull\.(video|live)-voip\.com$/
 /^(.+)-p2p\.pull\.yximgs\.com$/
+/^(.+)-p2p-(.+)\.pull\.yximgs\.com$/
 ||*.pcdn.yximgs.com^
 ||config-p2p-*.vcloud.ks-live.com^
 ||slb-p2p.vcloud.ks-live.com^
@@ -26,6 +27,7 @@
 # xxpkg系 疑似快手关联公司
 ||*pcdn*.xxpkg.com^
 ||p2p-punch.xxpkg.com^
+||p2p-punch-*.xxpkg.com^
 
 ! 斗鱼
 ||p2plog.douyucdn.cn^
