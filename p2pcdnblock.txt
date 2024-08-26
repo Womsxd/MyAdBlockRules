@@ -62,6 +62,8 @@
 !bilibili
 ||*-pcdn-*.biliapi.net^
 ||stun*.chat.bilibili.com^
+||*-p2p-*.chat.bilibili.com^
+
 
 !金山云
 ||*.stun.yfp2p.net^
