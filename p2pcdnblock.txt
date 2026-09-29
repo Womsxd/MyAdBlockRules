@@ -14,6 +14,15 @@
 ||signal.qvb.qcloud.com^
 ||stun*.qvb.qcloud.com^
 
+!百度/小度
+||pcdn-query.baidu.com^
+||dcdn.baidu.com^
+||puncher.xiaodu.com^
+! stun相关域名
+! # STUN/ICE（NAT 穿透）
+!    ice-stunserver.xdrtc.com / ice-stunserver-v6.xdrtc.com
+!    icestatis.xdrtc.com / iceudpstat.xdrtc.com / hbiceapi.xdrtc.com
+||xdrtc.com^ 
 
 ! 快手
 /^(.+)-p2p-pull\.(video|live)-voip\.com$/
@@ -58,12 +67,30 @@
 ||seeds-open.xycdn.com^
 ||ttxyajs.data.kuiniuca.com^
 ||sd-gl.xycdn.com^
+||starrydyn.com^
+||sd-glsky.xycdn.com^
+||comfylink.com^
+||kuiniuca.com^
 
 !bilibili
 ||*-pcdn-*.biliapi.net^
 ||stun*.chat.bilibili.com^
 ||*-p2p-*.chat.bilibili.com^
 
-
 !金山云
 ||*.stun.yfp2p.net^
+||pcth-cdn.ksyun.com^
+||td.ksyun.com^
+||slb-p2p.vcloud.ks-live.com^
+
+!七牛云
+||*.gslb.ubeethiesemo.com^
+||log.qiniuapi.com^
+
+!蓝山云
+! https://hub.docker.com/layers/shilazi/lsycloud-iaas/d2.2.10/images/sha256-92d6c6a185f243e6f8bc8421d7c3bc0db6a434c435241ce39ef029243c47cf7f?tab=layers
+! https://hub.docker.com/r/lsycloud/iaas-arm64
+||hnzkclouds.com^
+
+! dy (使用LLM提取自videocache_v2插件)
+||ndcpp.com^
