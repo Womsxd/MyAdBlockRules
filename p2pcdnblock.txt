@@ -14,6 +14,9 @@
 # 疑似腾讯云stun服务器
 ||signal.qvb.qcloud.com^
 ||stun*.qvb.qcloud.com^
+# 腾讯云
+# apd-vodp2plogin.teg.tencent-cloud.net（P2P 登录）、apd-vodp2pnat.teg.tencent-cloud.net（NAT）、apd-pcdnvodstat.teg.tencent-cloud.net（PCDN 统计上报）
+||apd-*.teg.tencent-cloud.net^
 
 !百度/小度
 ||pcdn-query.baidu.com^
