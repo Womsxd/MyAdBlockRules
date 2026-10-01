@@ -5,6 +5,7 @@
 ||stun.qqlive.qq.com^
 ||musicstun.p2p.qq.com^
 ||p2p.qq.com^
+||p2ptun.qq.com^
 ||*.p2ptun.qq.com^
 ||p2pupdate.gamedl.qq.com^
 ||p2pupgrade.gamedl.qq.com^
@@ -18,10 +19,10 @@
 ||pcdn-query.baidu.com^
 ||dcdn.baidu.com^
 ||puncher.xiaodu.com^
-! stun相关域名
-! # STUN/ICE（NAT 穿透）
-!    ice-stunserver.xdrtc.com / ice-stunserver-v6.xdrtc.com
-!    icestatis.xdrtc.com / iceudpstat.xdrtc.com / hbiceapi.xdrtc.com
+# stun相关域名
+# STUN/ICE（NAT 穿透）
+#    ice-stunserver.xdrtc.com / ice-stunserver-v6.xdrtc.com
+#    icestatis.xdrtc.com / iceudpstat.xdrtc.com / hbiceapi.xdrtc.com
 ||xdrtc.com^ 
 
 ! 快手
@@ -92,5 +93,9 @@
 ! https://hub.docker.com/r/lsycloud/iaas-arm64
 ||hnzkclouds.com^
 
-! dy (使用LLM提取自videocache_v2插件)
+! 抖音
+# 支持屏蔽vod和live的PCDN，需要和百度+网心的一起拦截
 ||ndcpp.com^
+
+!爱奇艺
+||tpa-hcdn.iqiyi.com^
